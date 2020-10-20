@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Hind|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html {
+  cursor: url('../img/mgh_17.png'), default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#mid {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    top: 40%;
+}
+
+#title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0 0 5px #ff7cb9, 0 0 10px #ff7cb9, 0 0 15px #ff7cb9, 0 0 20px #ff7cb9, 0 0 25px #ff7cb9, 0 0 30px #ff7cb9, 0 0 35px #ff7cb9;
+
+}
+
+#title:hover {
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ff7cb9, 0 0 10px #ff7cb9, 0 0 15px #ff7cb9, 0 0 20px #ff7cb9, 0 0 25px #ff7cb9, 0 0 30px #ff7cb9, 0 0 35px #ff7cb9;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff7cb9, 0 0 40px #ff7cb9, 0 0 50px #ff7cb9, 0 0 60px #ff7cb9, 0 0 70px #ff7cb9;
+  }
+}
+#links {
+  font-family: 'Muli', sans-serif;
+  font-size: 60%;
+  top: 50%;
+  color: black;
+}
+a:hover{
+  color: #ff7cb9;
+  
+	transition: 0.5s;
+}
+#raizo {
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 27%;
+}
+
+@-webkit-keyframes fadeInD2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInD2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInD2 {
+  -webkit-animation-name: fadeIn;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  animation-name: fadeIn;
+  -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+  animation-delay: 3s;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+body {
+    background-color: #333;
+    
+    color: white;
+    font-size: 1.3vw;
+    text-shadow: 0px 0px 3px black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+a {
+  color: white;
+  text-decoration: none;
+}
